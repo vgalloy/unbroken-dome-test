@@ -1,6 +1,5 @@
 plugins {
   id("org.unbroken-dome.helm")
-  id("org.unbroken-dome.helm-publish")
 }
 
 helm {
