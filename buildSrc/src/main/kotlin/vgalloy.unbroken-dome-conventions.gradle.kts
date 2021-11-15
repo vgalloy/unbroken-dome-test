@@ -3,6 +3,10 @@ plugins {
 }
 
 helm {
+  downloadClient {
+    enabled.set(true)
+    version.set("3.6.2")
+  }
   repositories {
     create("repo") {
       url("VALID_URL")
